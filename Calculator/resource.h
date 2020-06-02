@@ -19,7 +19,7 @@
 #define IDC_DIV                         1010
 #define IDC_MOD                         1011
 #define IDC_COUPL                       1012
-#define IDC_RICHEDIT21                  1013
+#define IDC_RICHEDIT21                  1014
 #define ID_CALCULATORS_OPENCOMPLEXCALCULATOR 32771
 #define ID_DLG_CALC                     32772
 
@@ -29,7 +29,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        312
 #define _APS_NEXT_COMMAND_VALUE         32773
-#define _APS_NEXT_CONTROL_VALUE         1014
+#define _APS_NEXT_CONTROL_VALUE         1015
 #define _APS_NEXT_SYMED_VALUE           310
 #endif
 #endif

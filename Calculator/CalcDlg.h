@@ -21,11 +21,13 @@ protected:
 
 	DECLARE_MESSAGE_MAP()
 private:
-	int m_nCompl1;
-	int m_nCompl2;
+	float m_fCompl1;
+	float m_fCompl2;
 	int m_nOperType;
-	int m_nReal1;
-	int m_nReal2;
+	float m_fReal1;
+	float m_fReal2;
 public:
 	afx_msg void OnClickedOblicz();
+	afx_msg void DisableSecondCoupled();
+	afx_msg void EnableSecondCoupled();
 };

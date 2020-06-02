@@ -9,7 +9,7 @@ private:
 
 public:
 	CComplex(double realPart = 0.0, double imaginaryPart = 0.0);
-	void operator=(const CComplex& num); //Tu byl problem
+	void operator=(const CComplex& num);
 	friend bool operator==(const CComplex& left, const CComplex& right);
 	friend bool operator!=(const CComplex& left, const CComplex& right);
 	friend CComplex operator+(const CComplex& left, const CComplex& right);

@@ -83,10 +83,12 @@ CCalculatorDoc* CCalculatorView::GetDocument() const // non-debug version is inl
 
 // CCalculatorView message handlers
 
-
 void CCalculatorView::OnDlgCalc()
 {
 	// TODO: Add your command handler code here
 	CCalcDlg dlg;
 	dlg.DoModal();
 }
+
+
+
